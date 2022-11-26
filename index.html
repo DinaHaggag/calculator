@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- the screen -->
+        <input type="text" placeholder="0" class="screen">
+
+         <!-- first row -->
+         <div class="firstrow">
+            <button onclick="clearNums()">Clear</button>
+            <button onclick="del()">Delete</button>
+        </div>
+
+    <div class="buttons">
+        
+         <!-- second row -->
+        <div class="row">
+            <button class="seven" onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="getOp('÷')">÷</button>
+        </div>
+
+         <!-- the third row -->
+        <div class="row">
+            <button class="four" onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="getOp('×')">×</button>
+        </div>
+
+         <!-- the fourth row -->
+        <div class="row">
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="getOp('-')">-</button>
+        </div>
+
+         <!-- the fifth row -->
+        <div class="row">
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button class="equal" onclick="calc()">=</button>
+            <button onclick="getOp('+')">+</button>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="js/js.js"></script>
+</body>
+</html>
