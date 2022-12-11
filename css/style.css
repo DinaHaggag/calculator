@@ -6,7 +6,7 @@
     padding: 10px;
     margin-left: 30%;
     margin-top: 3%;
-   background-color: rgb(164, 158, 158);
+   background-color: black;
 }
 
 .screen{
@@ -59,6 +59,6 @@ button{
     height: 50px;
  }
  .equal{
-   background-color: rgb(120, 93, 220);
+   background-color: orange;
    color: white;
  }
